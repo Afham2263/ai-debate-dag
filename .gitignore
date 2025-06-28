@@ -1,0 +1,10 @@
+env/
+__pycache__/
+*.pyc
+*.pkl
+*.log
+*.mp4
+.DS_Store
+.idea/
+.vscode/
+.groq/

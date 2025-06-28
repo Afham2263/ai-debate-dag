@@ -1,0 +1,5 @@
+langgraph>=0.0.35
+langchain>=0.1.16
+langchain-community>=0.0.26
+transformers>=4.41.0
+torch>=2.1.0s
