@@ -1,12 +1,12 @@
 
-# 🧠 AI Debate Simulator
+#  AI Debate Simulator
 
 A structured, multi-agent debate system powered by LangGraph and GroqCloud.  
 Two AI agents engage in a round-based debate on a user-provided topic. After 8 turns (4 per agent), a judge node analyzes the discussion and declares a winner.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ````
 
@@ -27,13 +27,13 @@ debate-dag/
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 - Python 3.10 or higher
 - A free [Groq API key](https://console.groq.com/)
 - Internet connection to access GroqCloud-hosted models
 
-### 📦 Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Environment Variable
+##  Environment Variable
 
 The project uses the GroqCloud-hosted Mixtral model. You’ll need to set your API key as an environment variable:
 
@@ -59,7 +59,7 @@ $env:GROQ_API_KEY="your_key_here"
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 Run the CLI interface:
 
@@ -71,7 +71,7 @@ You’ll be prompted to enter a topic. The system will simulate 8 alternating de
 
 ---
 
-## 🧠 DAG: Debate Flow
+##  DAG: Debate Flow
 
 ```text
 [UserInput]
@@ -102,7 +102,7 @@ You’ll be prompted to enter a topic. The system will simulate 8 alternating de
 
 ---
 
-## 📝 Logging
+##  Logging
 
 Each debate session is logged automatically. You’ll find a log file in the root directory, capturing:
 
@@ -115,7 +115,7 @@ Each debate session is logged automatically. You’ll find a log file in the roo
 
 
 
-## 💬 Feedback
+##  Feedback
 
 Feel free to fork or clone this repo to experiment with other agent behaviors, model integrations, or debate formats. For suggestions or issues, open a GitHub issue or pull request.
 
